@@ -47,10 +47,19 @@ export function Hero() {
               Crafting <span className="text-gradient">Digital Experiences</span> that Matter
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-12 leading-relaxed mx-auto lg:mx-0">
-              Hi, I'm <span className="text-foreground font-semibold">{resumeData.profile.name}</span>.
-              A Full-Stack Developer & IT Officer dedicated to building high-performance
-              applications and robust infrastructure.
+              Hi, I'm{" "}
+              <span className="text-foreground font-semibold">
+                {resumeData.profile.name}
+              </span>
+              ,  passionate full‑stack developer and IT officer building end‑to‑end
+              web and mobile apps with React, React Native, Next.js, Node.js, PHP,
+              JavaScript, and TypeScript. I focus on modern UI/UX using Redux, Context API,
+              Ant Design, Bootstrap, and Tailwind CSS, and handle server and hosting
+              management with cPanel, PHP/MySQL, MongoDB, and RDP. Lately, I’ve been
+              building AI‑powered web apps that integrate AI and LLM APIs to deliver
+              smarter, more personalized user experiences.
             </p>
+
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-5">
               <Button
                 size="lg"
