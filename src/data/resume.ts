@@ -73,7 +73,7 @@ export const resumeData = {
       image: ThreeKeysCover,
     },
     {
-      title: 'Minagaram - Tamil Dictionary App',
+      title: 'Minagaram - Tamil Dictionary App ' ,
       tech: ['React Native', 'SQLite', 'Node.js', 'Express', 'Android'],
       description: 'Mobile Dictionary Application for Tamil Language.',
       bullets: [
