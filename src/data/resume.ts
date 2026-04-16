@@ -1,9 +1,11 @@
 import ManasProfile from '@/assets/ManasProfile2.jpeg';
+import CV from '@/assets/Mohammed_Manas__CV.pdf';
 import ThreeKeysCover from '@/assets/ThreeKeysConsultingCover.png';
 import MinagaramCover from '@/assets/MinagaramCover.png';
 import FaceGramCover from '@/assets/SocialMediaCover.png';
 import WeatherCover from '@/assets/WeatherCover.png';
 import NikeLandingCover from '@/assets/NikeLandingCover.png';
+
 
 export const resumeData = {
   profile: {
@@ -19,6 +21,7 @@ export const resumeData = {
     phone: '+971 50 204 4687',
     yearsOfExperience: '3+',
     image: ManasProfile,
+    cvUrl: CV,
   },
 
   experience: [

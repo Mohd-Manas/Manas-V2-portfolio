@@ -22,11 +22,13 @@
     "noFallthroughCasesInSwitch": false,
     "noUncheckedSideEffectImports": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
+    "ignoreDeprecations": "5.0",
+
+    /* Path Aliases */
     "paths": {
       "@/*": ["./src/*"],
       "@shared/*": ["./shared/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src"]
 }

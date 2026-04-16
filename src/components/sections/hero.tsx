@@ -69,13 +69,11 @@ export function Hero() {
                 View Projects
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="w-full sm:w-auto h-14 px-10 rounded-2xl text-lg font-bold border-2 border-primary/20 hover:bg-secondary hover:border-primary/40 transition-all"
-              >
-                Download CV
-                <Download className="ml-2 h-5 w-5" />
+              <Button asChild size="lg" variant="outline" className="w-full sm:w-auto h-14 px-10 rounded-2xl text-lg font-bold border-2 border-primary/20 hover:bg-secondary hover:border-primary/40 transition-all">
+                <a href={resumeData.profile.cvUrl} download="Mohammed-Manas-CV.pdf">
+                  Download CV
+                  <Download className="ml-2 h-5 w-5" />
+                </a>
               </Button>
             </div>
           </motion.div>
