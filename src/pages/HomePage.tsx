@@ -14,7 +14,7 @@ export function HomePage() {
   return (
     <div className="min-h-screen bg-background text-foreground scroll-smooth font-sans selection:bg-primary/20 selection:text-primary">
       <Navbar />
-      <ThemeToggle className="fixed bottom-6 right-6 md:top-8 md:right-8 z-[100]" />
+      <ThemeToggle className="fixed bottom-6 right-6 md:top-4 md:right-12 z-[100]" />
       <main className="relative">
         <Hero />
         <About />
